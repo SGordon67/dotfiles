@@ -74,8 +74,14 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -theme ~/.config/rofi/mythem
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# shutdown
+bindsym $mod+Ctrl+Shift+p exec --no-startup-id systemctl poweroff
+
 # lock screen
 bindsym $mod+Shift+x exec --no-startup-id ~/.config/i3/lock.sh
+
+# play and pause
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
 
 # change focus
 bindsym $mod+$left focus left
