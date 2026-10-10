@@ -120,6 +120,9 @@ bindsym $mod+Shift+Right move right
 # split in vertical orientation
 bindsym $mod+v split v
 
+# volume controls
+bindsym $mod+Shift+v exec --no-startup-id pavucontrol-qt
+
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
 
