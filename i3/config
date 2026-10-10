@@ -269,4 +269,5 @@ client.unfocused        #45475a #45475a #bbbbbb #45475a #45475a
 # Please remove the following exec line:
 #######################################################################
 # exec i3-config-wizard
-exec --no-startup-id xrandr --output HDMI-0 --left-of DP-0
+# exec --no-startup-id xrandr --output HDMI-0 --left-of DP-0
+exec --no-startup-id xrandr --output HDMI-0 --mode 2560x1440 --rate 144 --left-of DP-0
